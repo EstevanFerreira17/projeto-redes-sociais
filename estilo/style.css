@@ -26,6 +26,7 @@ section#celular {
     position: absolute;
     width: 311px;
     height: 627px;
+    margin-right: 10px;
     background-image: url('../imagens/frame-iphone.png');
     top: 50%;
     left: 50%;
@@ -58,7 +59,6 @@ section#botao div {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
     height: 500px;
 }
 
