@@ -54,7 +54,7 @@ section#botao {
     height: 100vh;
 }
 
-section div {
+section#botao div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,12 +67,17 @@ div ul {
 }
 
 div img {  
-    width: 50px;
+    width: 45px;
     border-radius: 100%;
+    margin: 3px;
+    box-shadow: 2px 2px 5px black;
 }
 
 div img:hover {
-    width: 60px;
+    width: 55px;
+    
+    border: 1.98px solid white;
+    box-shadow: 2px 2px 5px black;
     transition-duration: 0.2s;
-    border: 3px solid white;
+    transition: border .5s;
 }
